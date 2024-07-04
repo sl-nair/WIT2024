@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #e5e5f7;
+  background-image:  linear-gradient(135deg, #efa5be 25%, transparent 25%), linear-gradient(225deg, #efa5be 25%, transparent 25%), linear-gradient(45deg, #efa5be 25%, transparent 25%), linear-gradient(315deg, #efa5be 25%, #e5e5f7 25%);
+  background-position:  10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+  background-repeat: repeat;
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d25f7e;
+  padding: 10px 20px;
+  width: auto;
+
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+}
+.navbar a:hover {
+  background-color: #575757;
+}
+.navbar .logo {
+  color: #eee;
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+.navbar .menu {
+  display: flex;
+  gap: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+  max-height: max-content;
+}
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.project {
+
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#clefairy{
+  flex-shrink: 1;
+}
+
+#jigglypuff{
+  flex-shrink: 1;
+  order:3
+}
+
+#diancie{
+  flex-shrink: 0.75;
+  align-self: center;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
